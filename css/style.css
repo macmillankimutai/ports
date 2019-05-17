@@ -1,3 +1,9 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
 .bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
   background-position: center;
@@ -5,23 +11,22 @@
   background-size: cover;
 }
 .bgimg-1 {
-  background-image: url('../assets/joel-filipe-191372-unsplash.jpg');
+  background-image: url('../assets/adam.jpg');
   min-height: 100%;
+  width: inherit;
 }
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-body, html {
-  height: 100%;
-  color: #777;
-  line-height: 1.8;
-}
+
 .bgimg-2 {
-  background-image: url("../assets/bsxdCN.jpg");
-  min-height: 400px;
+  background-image: url("../assets/dav.jpg");
+  min-height: 100%;
+  width: inherit;
 }
 .bgimg-3 {
   background-image: url("../assets/shauk.jpg");
-  min-height: 400px;
+  height: 80px;
+  width: inherit;
 }
+
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
@@ -30,3 +35,4 @@ body, html {
     background-attachment: scroll;
     min-height: 400px;
   }
+}
